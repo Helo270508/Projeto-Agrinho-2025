@@ -3,15 +3,21 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fdfcf5;
     color: #333;
+    background-image: url('fundo.avif'); /* Substitua pelo nome correto da imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: brightness(0.95);
 }
 
 header {
-    background-color: #88b04b;
+    background-color: rgba(136, 176, 75, 0.85);
     color: white;
     padding: 20px;
     text-align: center;
+    border-bottom: 4px solid #6c9a3f;
 }
 
 header img {
@@ -57,7 +63,7 @@ main {
 
 .conteudo {
     margin-bottom: 50px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.92);
     border-left: 6px solid #88b04b;
     padding: 20px;
     border-radius: 8px;
@@ -87,7 +93,7 @@ article h3 {
 }
 
 footer.rodape {
-    background-color: #88b04b;
+    background-color: rgba(136, 176, 75, 0.9);
     text-align: center;
     padding: 20px;
     color: white;
@@ -99,4 +105,3 @@ footer.rodape {
     margin-top: 10px;
     border-radius: 10px;
 }
-
